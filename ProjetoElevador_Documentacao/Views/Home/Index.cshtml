@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h3>Documentação - Projeto Elevador</h3>
+</div>
+</br></br>
+<h5>Inicializar</h5></br>
+Ao Inicializar o programa Elevador, serão apresentadas as seguintes perguntas em sequência: </br>
+Qual a capacidade limite do elevador?</br>
+Qual o total de andares no prédio?</br>
+As duas perguntas aceitam apenas repostas em números inteiros.
+</br></br>
+ <img src="~/img/img1.PNG"   />
+</br></br></br>
+Após responder as duas perguntas o programa irá apresentar um painel fixo com a resposta das duas perguntas anteriores</br> 
+e a “Quantidade atual de pessoas no elevador” (iniciando em 0) junto com o “Andar atual” (iniciando em 0). </br>
+Logo abaixo apresentará a lista de opção para uso do programa Elevador.
+</br></br>
+<img src="~/img/img2.PNG"   />
+</br></br></br>
+<h5>Opção 1 – Entrar</h5></br>
+Essa opção adiciona uma pessoa ao elevador, após analisar a seguinte condição: </br></br>
+- O elevador está abaixo do limite de pessoas?</br></br>
+Caso uma pessoa seja adicionada, a seguinte resposta é apresentada, “Uma pessoa entrou no elevador.”.</br>
+Além disso, uma pessoa será adicionada ao contador: “Quantidade atual de pessoas no elevador”.</br></br>
+Caso o limite de pessoas seja atingido, a seguinte resposta é apresentada: “O elevador está cheio. Por favor, aguarde.”
+</br></br></br>
+<h5>Opção 2 – Sair</h5></br>
+Essa opção remove uma pessoa do elevador, após analisar a seguinte condição: </br></br>
+- Existe alguém no elevador?</br></br>
+Caso uma pessoa seja removida, a seguinte resposta é apresentada, “Uma pessoa saiu do elevador.”.</br>
+Além disso, uma pessoa será subtraída do contador: “Quantidade atual de pessoas no elevador”.</br></br>
+Caso não haja ninguém no elevador, a seguinte resposta é apresentada: “O elevador está vazio.”
+</br></br></br>
+<h5>Opção 3 – Subir</h5></br>
+Essa opção faz o elevador subir um andar, após analisar a seguinte condição: </br></br>
+- O elevador está abaixo do total de andares?</br></br>
+Caso o elevador suba um andar, a seguinte resposta é apresentada, “Subindo.”. </br>
+Além disso, um andar será adicionado ao contador: “Andar atual”.</br></br>
+Caso o elevador esteja no último andar, a seguinte resposta é apresentada: “Este é o último andar.”
+</br></br></br>
+<h5>Opção 4 – Descer</h5></br>
+Essa opção faz o elevador descer um andar, após analisar a seguinte condição: </br></br>
+- O elevador está acima do térreo (0)?</br></br>
+Caso o elevador desça um andar, a seguinte resposta é apresentada, “Descendo.”. </br>
+Além disso, um andar será subtraído do contador: “Andar atual”.</br></br>
+Caso o elevador esteja no térreo, a seguinte resposta é apresentada: “Estamos no Térreo.”
+</br></br></br>
+<h5>Opção 5 – Fechar</h5></br></br>
+Essa opção encerra o programa Elevador. Apresentando a mensagem: "Fechando o elevador...".</br></br></br></br></br></br>
+<h3>Obrigado</h3>
